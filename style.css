@@ -75,18 +75,23 @@ li{
 .nav-link-text{
      color: white;
 }
+p{
+     line-height: 20px;
+     font-size: 18px;
+}
 .about{
      width: 100%;
      height: auto;
 }
 .about-me{
      width: 100%;
-     display: flex;
-     justify-content: center;
-     align-items: center;
+}
+.about-img{
+     width: 100%;
 }
 .para{
      width:100%;
+     padding: 10px;
 }
 .about-wrapper{
      width: 100%;
