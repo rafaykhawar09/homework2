@@ -1,5 +1,5 @@
 
-//toggle navbar
+// toggle navbar
 $(document).ready(function(){
      $(".hamburger").click(function(){
           console.log(this)
@@ -24,8 +24,8 @@ $(window).scroll(function(){
           $(".nav").removeClass("nav-bkg-before-scroll");
           $(".nav").addClass("nav-bkg-after-scroll");
      }
-     else{
-          $(".nav").removeClass("nav-bkg-after-scroll");
-          $(".nav").addClass("nav-bkg-before-scroll");
-     }
+     // else{
+     //      $(".nav").removeClass("nav-bkg-after-scroll");
+     //      $(".nav").addClass("nav-bkg-before-scroll");
+     // }
 });
